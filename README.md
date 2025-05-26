@@ -1,2 +1,13 @@
-# Senpai-Says
-⭐ A modern web application inspired by Rotten Tomatoes, dedicated to community-driven reviews and ratings of anime and manga. Built for a web development class, "Senpai Says" aims to provide a vibrant platform for fans to discover new series, share their opinions, and engage with popular titles.
+# 💖 Senpai Says 💖
+
+✨ *Your cozy corner for all things anime & manga reviews!* ✨
+
+A modern web application inspired by Rotten Tomatoes...
+
+## Project Status
+
+**In Progress:** Currently focusing on core backend API development and frontend UI implementation.
+
+## Copyright
+
+© 2025 Bruce, Carlos, Felicia, Markell. All Rights Reserved.
