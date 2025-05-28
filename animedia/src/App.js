@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Nav from './Header/Header.js'
+import Main from './Main/Main.js'
+import Section from './Section/Section.js'
+import Footer from './Footer/Footer.js'
+
+
+// ⭐ I'm so sorry. I should have completed this 5 hours ago.  
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+<div> 
+  <Nav/>
+  <Main/>
+  <Section/>
+  <Footer/>
+</div>
+
+)};
 
 export default App;
