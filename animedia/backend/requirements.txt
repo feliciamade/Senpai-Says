@@ -1,0 +1,8 @@
+# backend/requirements.txt
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-jose
+passlib
+# For database migrations
