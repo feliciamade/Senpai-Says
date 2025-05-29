@@ -4,7 +4,7 @@ import styles from './Header.module.css';
 function Header(){
 return (
     <header>
-    <h1 className={styles.logo}>Logo</h1>
+    <h1 className={styles.logo}>Animedia</h1>
     <nav>
     <a href="#">Title</a>
     <a href="#">Title</a>
