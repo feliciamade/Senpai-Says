@@ -9,4 +9,5 @@ Flask
 requests
 flask-cors
 jikanpy
+gunicorn
 # For database migrations
