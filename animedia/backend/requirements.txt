@@ -5,4 +5,8 @@ sqlalchemy
 pydantic
 python-jose
 passlib
+Flask
+requests
+flask-cors
+jikanpy
 # For database migrations
