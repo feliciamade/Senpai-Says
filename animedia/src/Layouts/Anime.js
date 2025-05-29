@@ -3,14 +3,14 @@ import Header from '../Components/Header/Header.js';
 import Footer from '../Components/Footer/Footer.js';
 import Sidebar from '../Components/Sidebar/Sidebar.js';
 import Entertainment from '../Components/Entertainment/Entertainment.js';
-import styles from './Discover.module.css';
+import styles from './Anime.module.css';
 import halftoneImage from './halftone.png'; 
 
-function Discover() {
+function Anime() {
   return (
-    <div className={styles.discover}>
+    <div className={styles.Anime}>
       <Header />
-      <div className={styles.discoverContent}>
+      <div className={styles.AnimeContent}>
       <Sidebar />
       <Entertainment />
     {/* <img src={halftoneImage} alt="A halftone pattern" className={styles.styledImage}  /> */ }
@@ -21,4 +21,4 @@ function Discover() {
   );
 }
 
-export default Discover;
+export default Anime;

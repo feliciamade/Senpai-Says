@@ -1,5 +1,5 @@
 import HomePage from './Layouts/HomePage.js'
-import Discover from './Layouts/Discover.js'
+import Anime from './Layouts/Anime.js'
 import Login from './Layouts/Login.js'
 
 
