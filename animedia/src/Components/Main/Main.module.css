@@ -1,0 +1,129 @@
+.main {
+height: 500px;
+background-color: white;
+overflow: hidden;
+}
+
+.mainContent {
+    margin: 0px 50px 0px 50px;
+    padding: 80px 0px 80px 0px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.mainLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    align-items: flex-start;
+}
+
+.trending {
+    margin-bottom: -35px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1.5px solid #ff6ed3;
+    color:#ff6ed3;
+    padding: 8px 20px;
+    font-style: italic;
+    transform:skew(-10deg);
+}
+
+.mainH1 {
+    font-size: 110px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: -20px;
+    color: #6ed8ff;
+}
+
+
+.category {
+    text-transform: uppercase;
+    font-style: italic;
+    color: #ffffff;
+    letter-spacing: 1.2px;
+    font-size: 18px;
+    color:#000027;
+    font-weight: 500;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.star {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.star i {
+    color:#fffb2a;
+}
+
+.rate  {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+
+.mainButton {
+  background-color: #ff6ed3;
+    padding: 18px;
+    width: 170px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: white;
+    font-family: "freight-sans-pro", sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    transform: skew(-10deg);
+}
+
+.mainButton:hover {
+border: 2px solid #ff6ed3;
+background-color: transparent;
+color: #ff6ed3;
+}
+
+.mainRight {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.card {
+    background-color: white;
+    height: 300px;
+    width: 200px;
+    transform: skew(-10deg);
+    box-shadow: -10px 15px 0.1px #6ed8ff;
+}
+
+
+.mainImage {
+    position: absolute;
+    right:-30%;
+    width: 80%;
+    bottom:-100px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: 0;
+}

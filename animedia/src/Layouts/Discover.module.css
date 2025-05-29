@@ -1,0 +1,24 @@
+.discover {
+    background-color:white;
+}
+
+.discoverContent {
+    margin:20px;
+    margin-top: -5px;
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    margin: 40px;
+    position: relative;
+}
+
+
+.styledImage {
+    width:60%;
+    height:auto;
+    position: absolute;
+    bottom:-250px;
+    right:-200px;
+    z-index:0;
+}
+

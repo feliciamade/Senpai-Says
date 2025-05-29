@@ -5,8 +5,10 @@
 
 
 body {
+   background-image: url('./animeGirl.png');
+    background-size: cover;
+    background-attachment: fixed; 
     font-family: "freight-sans-pro", sans-serif;
     font-weight: 600;
     font-style: normal;
-
 }
