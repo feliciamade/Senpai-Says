@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+
 function SearchAnime() {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState(null);
@@ -11,12 +13,12 @@ function SearchAnime() {
     setResults(null);
     setSaveMsg('');
     try {
-      const response = await fetch(`http://localhost:5000/search?q=${encodeURIComponent(query)}`);
+      const response = await fetch(`${BACKEND_URL}/search?q=${encodeURIComponent(query)}`);
       if (!response.ok) {
         throw new Error('Anime not found or server error');
       }
       const data = await response.json();
-      setResults(data.data || []); // Jikanpy returns results in data.data
+      setResults(data.data || []);
     } catch (err) {
       setError(err.message);
     }
@@ -25,7 +27,7 @@ function SearchAnime() {
   const handleSave = async (anime) => {
     setSaveMsg('');
     try {
-      const response = await fetch('http://localhost:5000/save', {
+      const response = await fetch(`${BACKEND_URL}/save`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(anime)
