@@ -1,0 +1,16 @@
+.loginpage {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.logincontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:400px;
+    height:500px;
+    margin: 0 auto;
+}
+
+
