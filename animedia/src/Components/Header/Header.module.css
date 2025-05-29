@@ -1,0 +1,49 @@
+
+
+header {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:50px;
+    text-transform: uppercase;
+    font-style: italic;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #1c3564;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.logo {
+    font-size: 40px;
+    color:#ff6ed3;
+    font-weight: 600;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons i {
+    font-size: 22px;
+    margin-right: 20px;
+    color:#ff6ed3;
+    font-weight: 600;
+}
+
+.search {
+    font-family: "freight-sans-pro", sans-serif;
+    letter-spacing: 0.5px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.search:focus {
+    outline:none;
+}
