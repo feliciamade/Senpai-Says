@@ -17,11 +17,33 @@ i {
 
 .sectionH1 {
   font-size: 70px;
-  color: #ffffff;
+  color: hwb(61 24% 0%);
   font-weight: 700;
   font-style: italic;
   text-transform: uppercase;
   text-align: center;
+}
+
+.section button {
+    padding: 18px;
+    width: 170px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: white;
+    font-family: "freight-sans-pro", sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    transform: skew(-10deg);
+}
+
+.section button:hover {
+  border: #ff6ed3 2px solid;
 }
 
 .carousel {
