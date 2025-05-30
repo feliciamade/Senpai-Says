@@ -1,7 +1,4 @@
 # backend/requirements.txt
-pydantic
-python-jose
-passlib
 Flask
 requests
 flask-cors
