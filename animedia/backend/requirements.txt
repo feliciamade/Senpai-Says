@@ -1,7 +1,4 @@
 # backend/requirements.txt
-fastapi
-uvicorn
-sqlalchemy
 pydantic
 python-jose
 passlib
@@ -9,4 +6,5 @@ Flask
 requests
 flask-cors
 jikanpy
+gunicorn
 # For database migrations
