@@ -10,10 +10,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 1px 1px 10px rgba(13, 48, 90, 0.315);
 }
 
 
-
+.left {
+    background-image: url('./moon.png');
+    width:50%;
+    height: 100%;
+}
 
 
 .right {
@@ -111,3 +116,15 @@ input:focus {
   margin-top: auto;
   bottom:0px;
 }*/
+
+h1 {
+    display: flex;
+    flex-direction: column;
+}
+i {
+    color:yellow;
+}
+
+.description {
+    margin-bottom: -20px;
+}

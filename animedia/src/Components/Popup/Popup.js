@@ -1,5 +1,6 @@
 import React, { useState } from 'react'; 
 import styles from './popup.module.css';
+import moon from './moon.png';
 
 function PopUp() {
     const [isVisible, setIsVisible] = useState(true); 
@@ -15,10 +16,11 @@ function PopUp() {
     return (
         <div className={styles.popup}>
             <div className={styles.popupContainer}>
+                <div className={styles.left}></div>
                 <div className={styles.right}>
                     {}
                     <div className={styles.closeButton} onClick={togglePopUp}>X</div>
-                    <h1 className={styles.title}>Newsletter</h1>
+                    <h1 className={styles.title}><i class="fa-solid fa-star"> </i> Newsletter </h1>
                     <p className={styles.description}>
                         Unlock anime! Get curated content, exclusive discounts, 
                         and the latest buzz. Subscribe today!

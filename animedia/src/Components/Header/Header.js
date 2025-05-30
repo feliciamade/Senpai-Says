@@ -12,7 +12,6 @@ return (
     <a href="#">News</a>
     </nav>
     <div className={styles.icons}>
-    <i class="fa-solid fa-magnifying-glass"></i>
     <input type="search" placeholder="search" className={styles.search}></input>
     </div>
     </header>
