@@ -3,6 +3,6 @@ Flask
 requests
 flask-cors
 jikanpy
-pymongo
+flask_pymongo
 gunicorn
 # For database migrations
