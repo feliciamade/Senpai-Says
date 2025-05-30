@@ -24,6 +24,7 @@ a {
 
 a:hover {
       background-color: #48ccfd; 
+}
 
 a:active {
         border-bottom: #ff6ed3 2px solid;
