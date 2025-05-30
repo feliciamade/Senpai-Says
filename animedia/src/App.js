@@ -16,13 +16,6 @@ function App() {
   return (
 
 <div> 
-
-  <Nav/>
-  <SearchAnime />
-  <Main/>
-  <Section/>
-  <Footer/>
-
 <HomePage/>
 </div>
 
