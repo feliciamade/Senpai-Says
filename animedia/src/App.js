@@ -1,9 +1,10 @@
 
-import Nav from './Header/Header.js'
-import Main from './Main/Main.js'
-import Section from './Section/Section.js'
-import Footer from './Footer/Footer.js'
-import SearchAnime from './SearchAnime'
+import Nav from './Components/Header/Header';
+import Main from './Components/Main/Main';
+import Section from './Components/Section/Section';
+import Footer from './Components/Footer/Footer'; 
+import SearchAnime from './SearchAnime.js';
+import React from 'react';
 
 import HomePage from './Layouts/HomePage.js'
 import Discover from './Layouts/Discover.js'
