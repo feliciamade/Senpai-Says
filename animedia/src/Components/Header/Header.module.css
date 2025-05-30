@@ -8,7 +8,7 @@ header {
     padding:50px;
     text-transform: uppercase;
     font-style: italic;
-    background-color: white;
+    background-color: #6ed8ff;
 }
 
 a {
@@ -17,6 +17,10 @@ a {
     color: #1c3564;
     font-size: 20px;
     font-weight: 500;
+}
+
+a:active {
+        border-bottom: #ff6ed3 2px solid;
 }
 
 .logo {
