@@ -7,8 +7,8 @@ function Section() {
     <section id="section" className={styles.section}>
       <h1 className={styles.sectionH1}>Most Popular</h1>
       <div className={styles.categories}>
-       <h3 className={styles.animeTag}>Anime</h3>
-       <h3 className={styles.mangaTag}>Manga</h3>
+       <button className={styles.animeTag}>Anime</button>
+       <button className={styles.mangaTag}>Manga</button>
       </div>
       <div className={styles.carousel}>
         <div className={styles.cardGrid}>
