@@ -8,24 +8,31 @@ header {
     padding:50px;
     text-transform: uppercase;
     font-style: italic;
-    background-color: #6ed8ff;
+    background-color:#caf1ff
+
 }
+
+
 
 a {
     text-decoration: none;
     margin-right: 20px;
-    color: #1c3564;
+    color:#000027;
     font-size: 20px;
     font-weight: 500;
 }
 
+a:hover {
+      background-color: #48ccfd; 
+
 a:active {
         border-bottom: #ff6ed3 2px solid;
+
 }
 
 .logo {
     font-size: 40px;
-    color:#ff6ed3;
+    color: #ff36c3;
     font-weight: 600;
 }
 
@@ -37,7 +44,6 @@ a:active {
 .icons i {
     font-size: 22px;
     margin-right: 20px;
-    color:#ff6ed3;
     font-weight: 600;
 }
 

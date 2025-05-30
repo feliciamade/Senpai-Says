@@ -1,19 +1,23 @@
 h1 {
     text-transform: uppercase;
-    color:#ff6ed3;
+    color: #ff6ed3;
     font-weight: 600;
     font-style: italic;
 }
 
 .show {
-    width:200px;
-    height:140px;
-    background-color: #90dcff5f;
+    width: 200px;
+    height: 140px;
+    background-color: #c9eeff5f; 
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
 
-.showGird {
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
+.showGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap:20px;
 }
 
@@ -21,7 +25,65 @@ h1 {
     position: relative;
     display: flex;
     flex-direction: column;
-    gap:20px;
-    margin:0px 40px;
+    gap: 20px;
+    margin: 0px 40px;
     overflow: hidden;
+}
+
+.categories {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.tag {
+    padding: 0.5rem 1rem;
+    background-color: #cccccc;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.active {
+    background-color: #ff6ed3; 
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+}
+
+.title {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
+Button {
+  background-color: #ff6ed3;
+    padding: 18px;
+    width: 170px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: white;
+    font-family: "freight-sans-pro", sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    margin-right:10px;
 }

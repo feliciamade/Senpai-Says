@@ -22,7 +22,7 @@ width:80%;
     padding:7px;
 }
 
-a:hover {
+aside a:hover {
     background-color: hsl(199, 100%, 94%);
     padding:7px;
     border-radius: 3px;

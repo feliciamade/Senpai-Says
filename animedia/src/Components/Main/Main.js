@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Main.module.css'; 
-import halftone from './halftone.png';
+import sailormoon from './moon.png';
+import moon from './moon.png';
 
 
 function Main(){
@@ -10,7 +11,7 @@ return (
 
     <div className={styles.mainLeft}>
       <p className={styles.trending}> Trending </p>
-      <h1 className={styles.mainH1}>Name</h1>
+      <h1 className={styles.mainH1}>Sailor <br />moon</h1>
       <p className={styles.category}>Comedy,Fantasy, Romance</p>
       <div className={styles.rating}>
       <div className={styles.star}>
@@ -26,7 +27,7 @@ return (
     <div className={styles.mainRight}>
       <div className={styles.card} id="card">
       </div>
-      <div className={styles.card}></div>
+      {/*<div className={styles.card2}></div>*/}
     </div>
 
     </div>
