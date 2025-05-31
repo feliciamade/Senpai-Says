@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './Main.module.css'; 
-import sailormoon from './moon.png';
+import sailormoon from './sailor-moon-power-1.avif';
 import moon from './moon.png';
+import picture from './picture.avif';
 
 
 function Main(){
@@ -15,6 +16,7 @@ return (
       <p className={styles.category}>Comedy,Fantasy, Romance</p>
       <div className={styles.rating}>
       <div className={styles.star}>
+        <i className="fa-solid fa-star"></i>
         <i className="fa-solid fa-star"></i>
         <i className="fa-solid fa-star"></i>
         <i className="fa-solid fa-star"></i>

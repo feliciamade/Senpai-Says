@@ -1,14 +1,16 @@
 
 
 header {
+    position: relative;
     display:flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding:50px;
+    padding:60px 100px 60px 100px;
     text-transform: uppercase;
     font-style: italic;
-    background-color:#caf1ff
+    background-color: hwb(200 60% 0%);
+    z-index: 1;
 
 }
 
@@ -17,22 +19,14 @@ header {
 a {
     text-decoration: none;
     margin-right: 20px;
-    color:#000027;
-    font-size: 20px;
+    color:#ffffff;
+    font-size: 25px;
     font-weight: 500;
-}
-
-a:hover {
-      background-color: #48ccfd; 
-
-a:active {
-        border-bottom: #ff6ed3 2px solid;
-
 }
 
 .logo {
     font-size: 40px;
-    color: #ff36c3;
+    color: #ffffff;
     font-weight: 600;
 }
 
@@ -52,8 +46,20 @@ a:active {
     letter-spacing: 0.5px;
     padding: 5px;
     font-size: 18px;
+    width:250px;
+    background-color: transparent;
+    border-bottom: 2px white solid;
+    color:white;
 }
 
+input {
+    color:white;
+}
 .search:focus {
     outline:none;
+}
+
+.search::placeholder {
+  color: white !important;
+  font-size: 25px !important;
 }

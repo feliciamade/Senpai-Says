@@ -1,6 +1,10 @@
 .main {
-height: 500px;
-background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+height: 600px;
+background-color: rgb(255, 255, 255);
 overflow: hidden;
 }
 
@@ -26,22 +30,22 @@ overflow: hidden;
     margin-bottom: -10px;
     font-weight: 500;
     text-transform: uppercase;
-    border: 1.5px solid #ff6ed3;
+    border: 2px solid #ff6ed3;
     color:#ff6ed3;
-    padding: 8px 20px;
+    padding: 12px 24px;
     font-style: italic;
     transform:skew(-10deg);
+    font-size: 20px;
 }
 
 .mainH1 {
-    font-size: 80px;
-    color: rgb(255, 255, 255);
+    font-size: 100px;
+    color: #ff8adc;
     font-weight: 700;
     font-style: italic;
     text-transform: uppercase;
     margin-bottom: -10px;
-    color: #6ed8ff;
-    line-height: 70px;
+    line-height: 90px;
 }
 
 
@@ -51,7 +55,7 @@ overflow: hidden;
     color: #ffffff;
     letter-spacing: 1.2px;
     font-size: 18px;
-    color:#000027;
+    color:#0a0f2c;
     font-weight: 500;
     margin-bottom: -10px;
 }
@@ -80,15 +84,15 @@ overflow: hidden;
 
 
 .mainButton {
-  background-color: #ff6ed3;
+  background-color:  #ff8adc;
     padding: 18px;
     width: 170px;
-    height: 50px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     border: none;
-    color: white;
+    color:#ffffff;
     font-family: "freight-sans-pro", sans-serif;
     text-transform: uppercase;
     font-style: italic;
@@ -99,9 +103,9 @@ overflow: hidden;
 }
 
 .mainButton:hover {
-border: 2px solid #ff6ed3;
+border: 2px solid  #ff8adc;
 background-color: transparent;
-color: #ff6ed3;
+color: #ff8adc;
 }
 
 .mainRight {
@@ -111,13 +115,14 @@ color: #ff6ed3;
 }
 
 .card {
-    background-image: url('./moon.png');
-    background-size: 300%;
+    background-image: url('./sailor-moon-power-1.avif');
+    background-size: 130%;
+    background-repeat: no-repeat;
     background-position: top;
-    height: 300px;
-    width: 400px;
+    height: 280px;
+    width: 450px;
     transform: skew(-10deg);
-    box-shadow: -10px 15px 0.1px #ace9ff;
+    box-shadow: -15px 15px 0.1px #ace6ff;
 }
 
 .card2 {

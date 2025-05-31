@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Section.module.css';
 import halftoneImage from './halftone-16.png';
-import ah from './ah-17.png';
+import ah from './ah-16.png';
 
 function Section() {
   const [mediaType, setMediaType] = useState('anime');
