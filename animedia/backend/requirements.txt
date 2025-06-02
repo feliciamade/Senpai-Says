@@ -1,10 +1,8 @@
 # backend/requirements.txt
-pydantic
-python-jose
-passlib
 Flask
 requests
 flask-cors
 jikanpy
+flask_pymongo
 gunicorn
 # For database migrations
